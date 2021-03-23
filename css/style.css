@@ -6,16 +6,16 @@
 }
 
 @font-face {
-  font-family: "Ruhl";
-  src: url("/projects/Project 2 - Photography/fonts/FrankRuhlLibre-Regular.ttf");
+  font-family: 'Ruhl';
+  src: url('../fonts/FrankRuhlLibre-Regular.ttf');
 }
 @font-face {
-  font-family: "Ruhl-Medium";
-  src: url("/projects/Project 2 - Photography/fonts/FrankRuhlLibre-Medium.ttf");
+  font-family: 'Ruhl-Medium';
+  src: url('../fonts/FrankRuhlLibre-Medium.ttf');
 }
 @font-face {
-  font-family: "Vibes";
-  src: url("/projects/Project 2 - Photography/fonts/GreatVibes-Regular.ttf");
+  font-family: 'Vibes';
+  src: url('../fonts/GreatVibes-Regular.ttf');
 }
 
 html {
@@ -76,12 +76,12 @@ a {
 }
 
 body {
-  font-family: "Ruhl", sans-serif;
+  font-family: 'Ruhl', sans-serif;
   animation: opening 1s ease-in-out;
 }
 
 h1 {
-  font-family: "Vibes", sans-serif;
+  font-family: 'Vibes', sans-serif;
 }
 
 /** Nav Section */
@@ -243,14 +243,14 @@ nav {
 
 .about-text h3 {
   padding: 2rem 0rem;
-  font-family: "Ruhl-Medium";
+  font-family: 'Ruhl-Medium';
 }
 
 .about-text h2 {
   font-size: calc(var(--header2) * 1.5);
   /* text-align: center; */
   padding: 4rem;
-  font-family: "Vibes";
+  font-family: 'Vibes';
 }
 
 /** Gallery section */
@@ -275,7 +275,7 @@ nav {
 }
 
 .gallery-head h2 {
-  font-family: "Vibes", sans-serif;
+  font-family: 'Vibes', sans-serif;
   letter-spacing: 0.5rem;
   padding-bottom: 1rem;
 }
